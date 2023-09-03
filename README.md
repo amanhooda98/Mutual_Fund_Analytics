@@ -1,6 +1,6 @@
 **🟢 MUTUAL FUND ANALYTICS USING PANDAS 🟢\
 \
-[Preface :]{.underline}**
+Preface :
 
 This analysis aims to compare the three major categories of mutual funds
 :\
