@@ -1,4 +1,18 @@
 🟢 MUTUAL FUND ANALYTICS USING PANDAS 🟢
+Preface:
+
+This Analysis aims to compare the three major categories of mutual funds against the NIFTY50 index as the benchmark:
+
+1.Equity Mutual Funds:
+
+
+
+
+
+
+
+
+
 
 
 
