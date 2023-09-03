@@ -15,8 +15,11 @@ in the stock market. Also, equity funds have the potential to generate
 significant returns over a period. Hence, the risk associated with these
 funds also tends to be comparatively higher.
 
+
 2.Debt :\
 Debt funds invest primarily in fixed-income securities such as bonds, securities and treasury bills. They invest in various fixed income instruments such as Fixed Maturity Plans (FMPs), Gilt Funds, Liquid Funds, Short-Term Plans, Long-Term Bonds and Monthly Income Plans, among others. Since the investments come with a fixed interest rate and maturity date, it can be a great option for passive investors looking for regular income (interest and capital appreciation) with minimal risks. 
+
+
 
 3.Hybrid :\
 As the name suggests, hybrid funds (Balanced Funds) is an optimum mix of bonds and stocks, thereby bridging the gap between equity funds and debt funds. The ratio can either be variable or fixed. In short, it takes the best of two mutual funds by distributing, say, 60% of assets in stocks and the rest in bonds or vice versa. Hybrid funds are suitable for investors looking to take more risks for ‘debt plus returns’ benefit rather than sticking to lower but steady income schemes. 
