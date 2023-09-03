@@ -1,9 +1,20 @@
-🟢 MUTUAL FUND ANALYTICS USING PANDAS 🟢
-Preface:
+**🟢 MUTUAL FUND ANALYTICS USING PANDAS 🟢\
+\
+[Preface :]{.underline}**
 
-This Analysis aims to compare the three major categories of mutual funds against the NIFTY50 index as the benchmark:
+This analysis aims to compare the three major categories of mutual funds
+:\
+\
+1.Equity :\
+Equity funds primarily invest in stocks, and hence go by the name of
+stock funds as well. They invest the money pooled in from various
+investors from diverse backgrounds into shares/stocks of different
+companies. The gains and losses associated with these funds depend
+solely on how the invested shares perform (price-hikes or price-drops)
+in the stock market. Also, equity funds have the potential to generate
+significant returns over a period. Hence, the risk associated with these
+funds also tends to be comparatively higher.
 
-1.Equity Mutual Funds:
 
 
 
