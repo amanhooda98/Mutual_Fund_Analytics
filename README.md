@@ -43,6 +43,11 @@ Project Walkthrough :
 
 ![Alt text](image-1.png)
 
+Findings :
+
+Equity mutual funds have shown the highest returns of **194.57 %** in 5 years in comparison to **65.28 %** of NIFTY50 index.
+
+
 
 
 
