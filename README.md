@@ -29,8 +29,19 @@ Data Sources :
 
 
 Mutual fund historical data was obtained using the mftool library(https://github.com/NayakwadiS/mftool),
-Historical data for NIFTY50 index was obtained from yahoo finance and extracted in a csv format.
+Historical data for NIFTY50 index was obtained from yahoo finance and extracted in a csv format. The collected data is of the last 5 years.
 Detailed steps of how the data was extracted can be found in the jupyter notebook. 
+
+
+Project Walkthrough :
+
+* I have selected 3 mutual funds from each of the above mentioned categories, these 3 were top rated in their categories as per moneycontrol.com, calculated the mean of all 3 in each category , this mean will represent the particular category in the analysis
+
+* normalized the data to aid in better comparison ( refer the jupyter notebook)
+
+* The result after merging the data was as represented in the following plot :
+
+![Alt text](image.png)
 
 
 
