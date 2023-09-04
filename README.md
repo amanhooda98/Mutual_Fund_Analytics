@@ -25,6 +25,14 @@ Debt funds invest primarily in fixed-income securities such as bonds, securities
 As the name suggests, hybrid funds (Balanced Funds) is an optimum mix of bonds and stocks, thereby bridging the gap between equity funds and debt funds. The ratio can either be variable or fixed. In short, it takes the best of two mutual funds by distributing, say, 60% of assets in stocks and the rest in bonds or vice versa. Hybrid funds are suitable for investors looking to take more risks for ‘debt plus returns’ benefit rather than sticking to lower but steady income schemes. 
 
 
+Data Sources :
+
+
+Mutual fund historical data was obtained using the mftool library(https://github.com/NayakwadiS/mftool),
+Historical data for NIFTY50 index was obtained from yahoo finance and extracted in a csv format.
+Detailed steps of how the data was extracted can be found in the jupyter notebook. 
+
+
 
 
 
