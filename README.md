@@ -56,25 +56,28 @@ Parameters to judge risk and reward ( Alpha α and Beta β) :
 
 * Alpha : Alpha measures the return on an investment above what would be expected based on its level of risk. It’s also sometimes used as a simple measure of whether an asset outperformed an appropriate benchmark such as NIFTY50 in this case, 
 for an example if nifty has moved up by X % in a time frame , and a mutual fund has moved by Y % in the same time frame 
-Y/X will define its α , an α > 1 indicates higher returns than the benchmark, which is desirable , but at what risk ?
+Y/X will define its α , an α > 1 indicates higher returns than the benchmark, which is desirable ,
+In our analysis we have considered the post covid recovery time frame to calculate the alpha, where equity has shown significant growth, but at what risk ?
 Here comes beta β into the picture.
 
 
 * Beta : Beta, or the beta coefficient, measures volatility relative to the market and can be used as a risk measure. The market always has a beta of 1, so betas above 1 are considered more volatile than the market, while betas below 1 are considered less volatile.
-for an example
+for an example if nifty has dropped by X % and a mutual fund has dropped by Y % , then Y/X will define its beta β,
+a β <1 indicates better stability with respect to the market.
+In our analysis , we have considered the market fall during covid, and during the second quarter of 2022.
 
 
 
+Conclusion :
+
+* Equity mutual funds had both alpha and beta parameters more than one which means they are for sure giving the most returns of all, but they are much more volatile , which makes it unsuitable for people who dont want to take as much risk and looking for short term investments.
+
+* Debt mutual funds have a low alpha, but have an even lower beta, which makes them almost invulnerable to equity market conditions, you can see the same in the graph. they are good alternatives to bank FDs considering they have no lock in period and give similar or better returns.
+
+* Hybrid mutual funds aim to capitalize on the equity market gains , but also try to balance the volatility with some investments being in debt instruments, they might be a good option for a investor who doesnt directly want to jump into equity funds but wants higher return than bank FDs
 
 
-
-
-
-
-
-
-
-
+The interactive Tableau dashboard for the comparison can be found on the below link :
 
 
 https://public.tableau.com/views/Mutual_Fund_Analytics/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
