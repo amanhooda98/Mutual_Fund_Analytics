@@ -52,6 +52,17 @@ and a CAGR of **24.12 %**.
 
 * Hybrid mutual funds have shown returns of **85.90 %** and CAGR of **13.2 %**
 
+Parameters to judge risk and reward ( Alpha α and Beta β) :
+
+* Alpha : Alpha measures the return on an investment above what would be expected based on its level of risk. It’s also sometimes used as a simple measure of whether an asset outperformed an appropriate benchmark such as NIFTY50 in this case, 
+for an example if nifty has moved up by X % in a time frame , and a mutual fund has moved by Y % in the same time frame 
+Y/X will define its α , an α > 1 indicates higher returns than the benchmark, which is desirable , but at what risk ?
+Here comes beta β into the picture.
+
+
+* Beta : Beta, or the beta coefficient, measures volatility relative to the market and can be used as a risk measure. The market always has a beta of 1, so betas above 1 are considered more volatile than the market, while betas below 1 are considered less volatile.
+for an example
+
 
 
 
