@@ -45,9 +45,12 @@ Project Walkthrough :
 
 Findings :
 
-Equity mutual funds have shown the highest returns of **194.57 %** in 5 years in comparison to **65.28 %** of NIFTY50 index.
+* Equity mutual funds have shown the highest returns of **194.57 %** in 5 years in comparison to **65.28 %** of NIFTY50 index,
+and a CAGR of **24.12 %**.
 
+* Debt mutual funds have shown the lowest returns of **44.29 %** in 5 years and a CAGR of **7.61 %**
 
+* Hybrid mutual funds have shown returns of **85.90 %** and CAGR of **13.2 %**
 
 
 
