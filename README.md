@@ -41,7 +41,7 @@ Project Walkthrough :
 
 * The result after merging the data was as represented in the following plot :
 
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 
 
