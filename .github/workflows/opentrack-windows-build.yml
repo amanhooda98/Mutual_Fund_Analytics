@@ -74,14 +74,15 @@ jobs:
           }
 
           $commit = (git -C (Join-Path $env:GITHUB_WORKSPACE 'opentrack') rev-parse HEAD).Trim()
-          @"
+          $buildInfo = @"
           Project: opentrack/opentrack
           Source branch: master
           Source commit: $commit
           Configuration: Release
           Target: Windows x64
           Executable: $($exe.FullName.Substring($installDir.Length).TrimStart('\'))
-          "@ | Set-Content -Encoding utf8 (Join-Path $installDir 'BUILD-INFO.txt')
+          "@
+          $buildInfo | Set-Content -Encoding utf8 (Join-Path $installDir 'BUILD-INFO.txt')
 
           Write-Host "Verified executable: $($exe.FullName)"
           Get-ChildItem -Path $installDir -Recurse -File | Measure-Object -Property Length -Sum | Format-List
