@@ -22,7 +22,6 @@ jobs:
           repository: opentrack/opentrack
           ref: master
           submodules: true
-          path: opentrack
 
       - name: Checkout opentrack dependencies
         uses: actions/checkout@v7
@@ -53,17 +52,17 @@ jobs:
       - name: Configure CMake
         shell: cmd
         run: |
-          call "%GITHUB_WORKSPACE%\opentrack\.github\workflows\build-windows.bat" cmake -GNinja -S "%GITHUB_WORKSPACE%\opentrack" -B "%GITHUB_WORKSPACE%\opentrack\build" -DCMAKE_BUILD_TYPE=Release "-DQt6_DIR=%QT_ROOT_DIR%\lib\cmake\Qt6"
+          call "%GITHUB_WORKSPACE%\.github\workflows\build-windows.bat" cmake -GNinja -S "%GITHUB_WORKSPACE%" -B "%GITHUB_WORKSPACE%\build" -DCMAKE_BUILD_TYPE=Release "-DQt6_DIR=%QT_ROOT_DIR%\lib\cmake\Qt6" -DONNXRuntime_DIR=/usr/lib/cmake/onnxruntime
 
       - name: Build and install
         shell: cmd
         run: |
-          call "%GITHUB_WORKSPACE%\opentrack\.github\workflows\build-windows.bat" cmake --build "%GITHUB_WORKSPACE%\opentrack\build" --config Release --target install
+          call "%GITHUB_WORKSPACE%\.github\workflows\build-windows.bat" cmake --build "%GITHUB_WORKSPACE%\build" --config Release --target install
 
       - name: Verify installation and write build metadata
         shell: pwsh
         run: |
-          $installDir = Join-Path $env:GITHUB_WORKSPACE 'opentrack\build\install'
+          $installDir = Join-Path $env:GITHUB_WORKSPACE 'build\install'
           if (-not (Test-Path $installDir)) {
             throw "Expected install directory not found: $installDir"
           }
@@ -73,7 +72,7 @@ jobs:
             throw "opentrack.exe was not found in the install output; refusing to upload an incomplete artifact."
           }
 
-          $commit = (git -C (Join-Path $env:GITHUB_WORKSPACE 'opentrack') rev-parse HEAD).Trim()
+          $commit = (git -C $env:GITHUB_WORKSPACE rev-parse HEAD).Trim()
           $buildInfo = @"
           Project: opentrack/opentrack
           Source branch: master
@@ -91,7 +90,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: opentrack-windows-x64
-          path: opentrack/build/install/**
+          path: build/install/**
           if-no-files-found: error
           compression-level: 6
           retention-days: 7
